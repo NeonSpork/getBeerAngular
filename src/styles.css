@@ -56,13 +56,6 @@
     padding: 0;
   }
   
-  .neonGlowTextRed {
-    color: #fff;
-    text-shadow: 0px 0px 3px #f00, 0px 0px 5px #f00, 0px 0px 7px #f00,
-      0px 0px 10px #f00, 0px 0px 15px #f00, 0px 0px 30px #f00, 0px 0px 60px #f00,
-      0px 0px 150px #f00;
-  }
-  
   .content {
     position: fixed;
     bottom: 0;

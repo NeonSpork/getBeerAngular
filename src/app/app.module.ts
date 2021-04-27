@@ -6,13 +6,12 @@ import { AppComponent } from './app.component';
 import { SensorsComponent } from './sensors/sensors.component';
 import { TempComponent } from './sensors/temp/temp.component';
 import { PintsComponent } from './sensors/pints/pints.component';
-import { NeonSignComponent } from './neon-sign/neon-sign.component';
-import { BeerButtonComponent } from './beer-button/beer-button.component';
-import { SecretSensorsComponent } from './secret-sensors/secret-sensors.component';
-import { SecretNeonSignComponent } from './secret-neon-sign/secret-neon-sign.component';
-import { SecretAppComponent } from './secret-app/secret-app.component';
-import { CrossbonesComponent } from './crossbones/crossbones.component';
-import { DefaultAppComponent } from './default-app/default-app.component';
+import { NeonSignComponent } from './pages/default/neon-sign/neon-sign.component';
+import { BeerButtonComponent } from './pages/default/beer-button/beer-button.component';
+import { SecretNeonSignComponent } from './pages/secret/secret-neon-sign/secret-neon-sign.component';
+import { SecretAppComponent } from './pages/secret/secret-app/secret-app.component';
+import { CrossbonesComponent } from './pages/secret/crossbones/crossbones.component';
+import { DefaultAppComponent } from './pages/default/default-app/default-app.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { DefaultAppComponent } from './default-app/default-app.component';
     PintsComponent,
     NeonSignComponent,
     BeerButtonComponent,
-    SecretSensorsComponent,
     SecretNeonSignComponent,
     SecretAppComponent,
     CrossbonesComponent,

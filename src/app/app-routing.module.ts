@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DefaultAppComponent } from './default-app/default-app.component';
-import { SecretAppComponent } from './secret-app/secret-app.component';
+import { DefaultAppComponent } from './pages/default/default-app/default-app.component';
+import { SecretAppComponent } from './pages/secret/secret-app/secret-app.component';
 
 const routes: Routes = [
-  {path: 'default-app', component: DefaultAppComponent},
-  {path: 'secret-app', component: SecretAppComponent},
+  {path: '', component: DefaultAppComponent},
+  {path: 'secret', component: SecretAppComponent},
 ];
 
 @NgModule({
