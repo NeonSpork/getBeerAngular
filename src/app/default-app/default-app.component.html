@@ -1,0 +1,22 @@
+<div class="content">
+    <div class="flexbox-mainLogo">
+        <app-neon-sign></app-neon-sign>
+    </div>
+    <div class="flexbox-content">
+        <div class="flexbox-sensors">
+            <p>
+                <app-sensors></app-sensors>
+            </p>
+        </div>
+        <div class="flexbox-item-beerButton">
+            <app-beer-button></app-beer-button>
+        </div>
+    </div>
+</div>
+
+<script>
+    window.setInterval('refresh()', 60000);
+    function refresh() {
+        window.location.reload();
+    }
+</script>
